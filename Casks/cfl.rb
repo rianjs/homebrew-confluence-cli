@@ -3,7 +3,7 @@ cask "cfl" do
   name "cfl"
   desc "Command-line interface for Atlassian Confluence"
   homepage "https://github.com/rianjs/confluence-cli"
-  version "0.6.0"
+  version "0.7.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cfl" do
   on_macos do
     on_intel do
       url "https://github.com/rianjs/confluence-cli/releases/download/v#{version}/cfl_#{version}_darwin_amd64.tar.gz"
-      sha256 "5ada850d17309e27c75751d93545e049f7468661241e758bb246a29807b03522"
+      sha256 "a9fe1edf1ee90af4478483a5d89f43c8fe0767dad7069275b835fb1010f96d8c"
     end
     on_arm do
       url "https://github.com/rianjs/confluence-cli/releases/download/v#{version}/cfl_#{version}_darwin_arm64.tar.gz"
-      sha256 "d2962adcfac166250c9f8a8d84520b3eb46363e7948f31ebac46ff3db858251a"
+      sha256 "777c4430e3b1a847b4a64e0b7c1d102a35b896f14a80a6a627e10c881061857d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/rianjs/confluence-cli/releases/download/v#{version}/cfl_#{version}_linux_amd64.tar.gz"
-      sha256 "ce81c909f20b1f965db27582f2413ec3fd871bae9feb3f17644593f47259a074"
+      sha256 "880527bb28bb39253e3e5a035dfadad41f127877083cc87834024919d608dfb8"
     end
     on_arm do
       url "https://github.com/rianjs/confluence-cli/releases/download/v#{version}/cfl_#{version}_linux_arm64.tar.gz"
-      sha256 "2df2e285544f09b829a5bb49073b9871878e132f65a797c79a68e527cd751ad8"
+      sha256 "b91f382d61a5f9d121f5e76ff7a28b582e723d71e28638ee5665d548b397d69f"
     end
   end
 
